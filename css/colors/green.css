@@ -1,0 +1,380 @@
+/* green #00A600 */
+
+a {
+	color: #00A600;
+}
+
+.color-theme {
+	color: #00A600;
+}
+
+.bg-theme {
+	background-color:#00A600 !important;
+}
+
+.checkout-process li.active {
+	background-color:#00A600;
+	border: 1px solid #00A600;
+}
+
+.page-title .breadcrumb>.active {
+	color:#00A600 !important;
+}
+
+.btn-theme {
+	background-color:#00A600;
+}
+
+.btn-theme:hover {
+	background-color:#373737;
+}
+
+.btn-theme-transparent {
+	border: 1px solid #00A600;
+    color: #00A600;
+}
+
+.btn-theme-transparent:hover {
+	background-color:#00A600;
+}
+
+.btn-white-transparent:hover {
+	background-color:#00A600;
+}
+
+.icon-holder:hover {
+	background-color:#00A600;
+}
+
+.img-overlay {
+	background-color:#00A600;
+}
+
+.menu-cart span.badge {
+	background-color:#00A600;
+}
+
+.scrollToTop {
+	background-color:#00A600 !important;
+}
+
+.navbar-toggle {
+	background-color:#00A600 !important;
+}	
+
+.navbar-brand span {
+    color: #00A600 !important;
+}
+
+.navbar-nav>li>a:hover {
+	color: #00A600 !important;
+}
+
+.navbar-nav>.active>a, .navbar-nav>.active>a:focus, .navbar-nav>.active>a:hover {
+	color: #00A600 !important;
+}
+
+.navbar-nav .open .dropdown-menu>li>a:focus, .navbar-nav .open .dropdown-menu>li>a:hover {
+	color: #00A600 !important;
+}
+
+.navbar .dropdown-menu li a:hover {
+    color: #00A600;
+}	
+
+.feature-box4 i {
+	color: #00A600;
+}
+
+.list-block li i {
+	color: #00A600;
+}
+
+.tweets li p a {
+	color: #00A600;
+}
+
+a.btn-more:after {
+	color: #00A600;
+}
+
+a.showcode {
+	color: #00A600;
+}
+
+.copyright a {
+	color: #00A600;
+}
+
+.heading-border {
+    border: 2px solid #00A600;
+}	
+	
+.icon-holder.theme {
+	background-color:#00A600;
+}
+
+.icon-holder.theme:hover {
+	background-color:#373737;
+}
+
+.icon-holder.light {
+	border:1px solid #00A600;
+}
+
+.dropcap {
+	color: #00A600;
+}
+
+.dropcap-square, .dropcap-rounded, .dropcap-circle {
+	background-color:#00A600;
+}
+
+blockquote.colored {
+    border-left: 2px solid #00A600;
+}
+
+.blockquote-reverse-colored {
+	border-right: 2px solid #00A600;
+}
+
+.tab-style1 .nav-tabs {
+	border-bottom: 1px solid #00A600;
+}
+
+.tab-style1 .nav-tabs>li.active>a {
+	background: #00A600;
+    border: 1px solid #00A600;
+}
+
+.tab-style1 .nav-tabs>li a:focus, .tab-style1 .nav-tabs>li a:hover {
+	background: #00A600;
+    border: 1px solid #00A600;
+}
+
+.tab-style4 .nav-tabs>li.active>a {
+	border-top: 2px solid #00A600;
+}
+
+.pills-style1 .nav-pills li.active>a, .pills-style2 .nav-pills li.active>a, .pills-style3 .nav-pills li.active>a {
+	background-color: #00A600;
+}
+
+.pills-style4 .nav-pills li.active>a {
+	border-left: 2px solid #00A600;
+}
+
+.panel-group.accordion-style1 .panel .panel-heading {
+	background-color: #00A600;
+}
+
+.panel-group.accordion-style3 .panel .panel-heading {
+	border: 1px solid #00A600;
+}
+
+.panel-theme .panel-heading {
+	background-color: #00A600;
+}
+
+.panel-theme .panel-body {
+    border-left: 1px solid #00A600;
+    border-right: 1px solid #00A600;
+    border-bottom: 1px solid #00A600;
+}
+
+.sidebar-menu li.active a {
+	background: #00A600;
+	color:#fff;
+}
+
+.pagination>.active a, .pagination>.active a:focus, .pagination>.active a:hover {
+	background-color: #00A600;
+    border: 1px solid #00A600;
+}
+
+.pager li a {
+	border: 1px solid #00A600;
+}
+
+.pager li a:hover {
+	background-color: #00A600;
+}
+
+.separator {
+	background-color: #00A600;
+}
+
+.side-menu ul li:hover a, .side-menu ul li.has-sub>a span:after, .side-menu ul ul a:before, .side-menu ul li.active a, .side-menu ul li.has-sub.active>a span:after {
+	color: #00A600;
+}
+
+.shop-item:hover {
+	border-bottom: 1px solid #00A600;
+}
+
+ul#filter li.current a , ul#filter a:hover, ul#filter li.current a{
+	color:#00A600;
+}
+
+.feature-box.style1 i, .feature-box.style1:hover {
+	background-color: #00A600;
+}
+
+.feature-box.style1:hover i {
+	color:#00A600;
+}
+
+.feature-box.style2 i {
+	color: #00A600;
+    border: 1px solid #00A600;
+}
+
+.feature-box.style2:hover i {
+	background-color:#00A600;
+	border: 1px solid #00A600;
+	color:#fff;
+}
+
+.feature-box.style3:hover {
+    border: 1px solid #00A600;
+}
+
+.feature-box.style3:hover i{
+    color: #00A600;
+}
+
+.feature-box.style4:hover {
+    border: 1px solid #00A600;
+}
+
+.feature-box.style4:hover i {
+	color: #00A600;
+}
+
+.feature-box.style4:hover h4 {
+    background-color:#00A600;
+	color:#fff;
+}
+
+.feature-box.style5:hover i {
+	color: #00A600;
+}
+
+.feature-box.style6 i {
+	background-color:#00A600;
+}
+
+a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
+	border-color: #00A600;
+}
+
+.heading i {
+	border: 1px solid #00A600;
+	color: #00A600;
+}
+
+.heading-block {
+	background-color:#00A600;
+}
+
+.heading-dotted {
+    border: 2px dotted #00A600;
+}	
+
+.gallery-hover i {
+	background-color:#00A600;
+}
+
+.testimonial2:hover {
+	border: 1px solid #00A600;
+}
+
+.bg-dark .info strong {
+	color:#00A600 !important;
+}
+
+.pricing-tables.highlights .heading {
+	background-color:#00A600;
+}
+
+.pricing-tables .content ul li i {
+	color:#00A600;
+}
+
+.pricing-tables.style2 {
+    border: 2px solid #00A600;
+}
+
+.pricing-tables.style2 .circle.highlights {
+    background-color: #00A600;
+}	
+
+.pricing-tables.style2 .circle {
+	border: 2px solid #00A600;
+}
+
+.pricing-tables.style3 .heading.highlights {
+    background-color: #00A600;
+}
+
+.client .client-logo:hover {
+    border: 1px solid #00A600;
+}
+
+.client-v2:hover {
+    border: 1px solid #00A600;
+}
+
+.navbar-onepage .navbar-nav>li>a.active, .navbar-onepage .navbar-brand:hover {
+	color:#00A600;
+}
+
+.tags li a:hover {
+	background-color: #00A600;
+}
+
+.list-block li a:hover {
+    color: #00A600;
+}
+
+
+/*** Works on common browsers ***/
+::selection {
+    background-color:#00A600 !important;
+    color: #fff;
+}
+
+/*** Mozilla based browsers ***/
+::-moz-selection {
+    background-color:#00A600 !important;
+    color: #fff;
+}
+
+/***For Other Browsers ***/
+::-o-selection {
+    background-color:#00A600 !important;
+    color: #fff;
+}
+
+::-ms-selection {
+    background-color:#00A600 !important;
+    color: #fff;
+}
+
+/*** For Webkit ***/
+::-webkit-selection {
+    background-color:#00A600 !important;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+

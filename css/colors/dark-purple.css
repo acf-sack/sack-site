@@ -1,0 +1,380 @@
+/* dark-purple: #643EBF; */
+
+a {
+	color: #643EBF;
+}
+
+.color-theme {
+	color: #643EBF;
+}
+
+.bg-theme {
+	background-color:#643EBF !important;
+}
+
+.checkout-process li.active {
+	background-color:#643EBF;
+	border: 1px solid #643EBF;
+}
+
+.page-title .breadcrumb>.active {
+	color:#643EBF !important;
+}
+
+.btn-theme {
+	background-color:#643EBF;
+}
+
+.btn-theme:hover {
+	background-color:#373737;
+}
+
+.btn-theme-transparent {
+	border: 1px solid #643EBF;
+    color: #643EBF;
+}
+
+.btn-theme-transparent:hover {
+	background-color:#643EBF;
+}
+
+.btn-white-transparent:hover {
+	background-color:#643EBF;
+}
+
+.icon-holder:hover {
+	background-color:#643EBF;
+}
+
+.img-overlay {
+	background-color:#643EBF;
+}
+
+.menu-cart span.badge {
+	background-color:#643EBF;
+}
+
+.scrollToTop {
+	background-color:#643EBF !important;
+}
+
+.navbar-toggle {
+	background-color:#643EBF !important;
+}	
+
+.navbar-brand span {
+    color: #643EBF !important;
+}
+
+.navbar-nav>li>a:hover {
+	color: #643EBF !important;
+}
+
+.navbar-nav>.active>a, .navbar-nav>.active>a:focus, .navbar-nav>.active>a:hover {
+	color: #643EBF !important;
+}
+
+.navbar-nav .open .dropdown-menu>li>a:focus, .navbar-nav .open .dropdown-menu>li>a:hover {
+	color: #643EBF !important;
+}
+
+.navbar .dropdown-menu li a:hover {
+    color: #643EBF;
+}	
+
+.feature-box4 i {
+	color: #643EBF;
+}
+
+.list-block li i {
+	color: #643EBF;
+}
+
+.tweets li p a {
+	color: #643EBF;
+}
+
+a.btn-more:after {
+	color: #643EBF;
+}
+
+a.showcode {
+	color: #643EBF;
+}
+
+.copyright a {
+	color: #643EBF;
+}
+
+.heading-border {
+    border: 2px solid #643EBF;
+}	
+	
+.icon-holder.theme {
+	background-color:#643EBF;
+}
+
+.icon-holder.theme:hover {
+	background-color:#373737;
+}
+
+.icon-holder.light {
+	border:1px solid #643EBF;
+}
+
+.dropcap {
+	color: #643EBF;
+}
+
+.dropcap-square, .dropcap-rounded, .dropcap-circle {
+	background-color:#643EBF;
+}
+
+blockquote.colored {
+    border-left: 2px solid #643EBF;
+}
+
+.blockquote-reverse-colored {
+	border-right: 2px solid #643EBF;
+}
+
+.tab-style1 .nav-tabs {
+	border-bottom: 1px solid #643EBF;
+}
+
+.tab-style1 .nav-tabs>li.active>a {
+	background: #643EBF;
+    border: 1px solid #643EBF;
+}
+
+.tab-style1 .nav-tabs>li a:focus, .tab-style1 .nav-tabs>li a:hover {
+	background: #643EBF;
+    border: 1px solid #643EBF;
+}
+
+.tab-style4 .nav-tabs>li.active>a {
+	border-top: 2px solid #643EBF;
+}
+
+.pills-style1 .nav-pills li.active>a, .pills-style2 .nav-pills li.active>a, .pills-style3 .nav-pills li.active>a {
+	background-color: #643EBF;
+}
+
+.pills-style4 .nav-pills li.active>a {
+	border-left: 2px solid #643EBF;
+}
+
+.panel-group.accordion-style1 .panel .panel-heading {
+	background-color: #643EBF;
+}
+
+.panel-group.accordion-style3 .panel .panel-heading {
+	border: 1px solid #643EBF;
+}
+
+.panel-theme .panel-heading {
+	background-color: #643EBF;
+}
+
+.panel-theme .panel-body {
+    border-left: 1px solid #643EBF;
+    border-right: 1px solid #643EBF;
+    border-bottom: 1px solid #643EBF;
+}
+
+.sidebar-menu li.active a {
+	background: #643EBF;
+	color:#fff;
+}
+
+.pagination>.active a, .pagination>.active a:focus, .pagination>.active a:hover {
+	background-color: #643EBF;
+    border: 1px solid #643EBF;
+}
+
+.pager li a {
+	border: 1px solid #643EBF;
+}
+
+.pager li a:hover {
+	background-color: #643EBF;
+}
+
+.separator {
+	background-color: #643EBF;
+}
+
+.side-menu ul li:hover a, .side-menu ul li.has-sub>a span:after, .side-menu ul ul a:before, .side-menu ul li.active a, .side-menu ul li.has-sub.active>a span:after {
+	color: #643EBF;
+}
+
+.shop-item:hover {
+	border-bottom: 1px solid #643EBF;
+}
+
+ul#filter li.current a , ul#filter a:hover, ul#filter li.current a{
+	color:#643EBF;
+}
+
+.feature-box.style1 i, .feature-box.style1:hover {
+	background-color: #643EBF;
+}
+
+.feature-box.style1:hover i {
+	color:#643EBF;
+}
+
+.feature-box.style2 i {
+	color: #643EBF;
+    border: 1px solid #643EBF;
+}
+
+.feature-box.style2:hover i {
+	background-color:#643EBF;
+	border: 1px solid #643EBF;
+	color:#fff;
+}
+
+.feature-box.style3:hover {
+    border: 1px solid #643EBF;
+}
+
+.feature-box.style3:hover i{
+    color: #643EBF;
+}
+
+.feature-box.style4:hover {
+    border: 1px solid #643EBF;
+}
+
+.feature-box.style4:hover i {
+	color: #643EBF;
+}
+
+.feature-box.style4:hover h4 {
+    background-color:#643EBF;
+	color:#fff;
+}
+
+.feature-box.style5:hover i {
+	color: #643EBF;
+}
+
+.feature-box.style6 i {
+	background-color:#643EBF;
+}
+
+a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
+	border-color: #643EBF;
+}
+
+.heading i {
+	border: 1px solid #643EBF;
+	color: #643EBF;
+}
+
+.heading-block {
+	background-color:#643EBF;
+}
+
+.heading-dotted {
+    border: 2px dotted #643EBF;
+}	
+
+.gallery-hover i {
+	background-color:#643EBF;
+}
+
+.testimonial2:hover {
+	border: 1px solid #643EBF;
+}
+
+.bg-dark .info strong {
+	color:#643EBF !important;
+}
+
+.pricing-tables.highlights .heading {
+	background-color:#643EBF;
+}
+
+.pricing-tables .content ul li i {
+	color:#643EBF;
+}
+
+.pricing-tables.style2 {
+    border: 2px solid #643EBF;
+}
+
+.pricing-tables.style2 .circle.highlights {
+    background-color: #643EBF;
+}	
+
+.pricing-tables.style2 .circle {
+	border: 2px solid #643EBF;
+}
+
+.pricing-tables.style3 .heading.highlights {
+    background-color: #643EBF;
+}
+
+.client .client-logo:hover {
+    border: 1px solid #643EBF;
+}
+
+.client-v2:hover {
+    border: 1px solid #643EBF;
+}
+
+.navbar-onepage .navbar-nav>li>a.active, .navbar-onepage .navbar-brand:hover {
+	color:#643EBF;
+}
+
+.tags li a:hover {
+	background-color: #643EBF;
+}
+
+.list-block li a:hover {
+    color: #643EBF;
+}
+
+
+/*** Works on common browsers ***/
+::selection {
+    background-color:#643EBF !important;
+    color: #fff;
+}
+
+/*** Mozilla based browsers ***/
+::-moz-selection {
+    background-color:#643EBF !important;
+    color: #fff;
+}
+
+/***For Other Browsers ***/
+::-o-selection {
+    background-color:#643EBF !important;
+    color: #fff;
+}
+
+::-ms-selection {
+    background-color:#643EBF !important;
+    color: #fff;
+}
+
+/*** For Webkit ***/
+::-webkit-selection {
+    background-color:#643EBF !important;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
