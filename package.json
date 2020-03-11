@@ -1,0 +1,22 @@
+{
+  "name": "sack-site",
+  "version": "1.0.0",
+  "description": "Official Website of St. Anthony's College Kandy",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server --port 9000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acf-sack/sack-site.git"
+  },
+  "author": "Antonian Computer Fraternity - St. Anthony's College, Kandy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acf-sack/sack-site/issues"
+  },
+  "homepage": "https://github.com/acf-sack/sack-site#readme",
+  "dependencies": {
+    "http-server": "^0.12.1"
+  }
+}
