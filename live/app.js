@@ -1,5 +1,5 @@
 function connect() {
-    const socket = new SockJS('https://sack-live-score.herokuapp.com/live'); //todo :
+    const socket = new SockJS('https://sack-live-score.herokuapp.com/live');
     const stompClient = Stomp.over(socket);
     stompClient.connect({}, function (frame) {
         stompClient.subscribe('/topic/test-match', function (match) {
@@ -46,5 +46,5 @@ function setValues(payload) {
 }
 
 $(function () {
-    connect()
+    connect();
 });
