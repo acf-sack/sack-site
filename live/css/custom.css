@@ -1,3 +1,15 @@
+body {
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.img-thumbnail {
+    max-width: 35%;
+    max-height: 35%;
+    min-height: 20%;
+    min-width: 20%;
+    overflow: auto;
+}
+
 .lds-ellipsis {
     display: inline-block;
     position: relative;
@@ -51,5 +63,46 @@
     }
     100% {
         transform: translate(24px, 0);
+    }
+}
+
+.pulse {
+    margin:3px;
+    display: block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #cca92c;
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+    animation: pulse 2s infinite;
+}
+.pulse:hover {
+    animation: none;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+}
+@keyframes pulse {
+    0% {
+        -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+        box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+        box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+        box-shadow: 0 0 0 0 rgba(204,169,44, 0);
     }
 }
