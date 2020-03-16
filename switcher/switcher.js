@@ -12,72 +12,72 @@ jQuery(document).ready(function($) {
 	
 		// Color Changer
 		$(".green" ).click(function(){
-			$("#colors" ).attr("href", "css/colors/green.css" );
+			$("#colors" ).attr("href", "css/colors/green.min.css" );
 			return false;
 		});
 		
 		$(".blue" ).click(function(){
-			$("#colors" ).attr("href", "css/colors/blue.css" );
+			$("#colors" ).attr("href", "css/colors/blue.min.css" );
 			return false;
 		});
 		
 		$(".sky-blue" ).click(function(){
-			$("#colors" ).attr("href", "css/colors/sky-blue.css" );
+			$("#colors" ).attr("href", "css/colors/sky-blue.min.css" );
 			return false;
 		});
 		
 		$(".orange" ).click(function(){
-			$("#colors" ).attr("href", "css/colors/orange.css" );
+			$("#colors" ).attr("href", "css/colors/orange.min.css" );
 			return false;
 		});
 		
 		$(".red" ).click(function(){
-			$("#colors" ).attr("href", "css/colors/red.css" );
+			$("#colors" ).attr("href", "css/colors/red.min.css" );
 			return false;
 		});
 		
 		$(".light" ).click(function(){
-			$("#colors" ).attr("href", "css/colors/light.css" );
+			$("#colors" ).attr("href", "css/colors/light.min.css" );
 			return false;
 		});
 		
 		$(".purple" ).click(function(){
-			$("#colors" ).attr("href", "css/colors/purple.css" );
+			$("#colors" ).attr("href", "css/colors/purple.min.css" );
 			return false;
 		});
 		
 		$(".aqua" ).click(function(){
-			$("#colors" ).attr("href", "css/colors/aqua.css" );
+			$("#colors" ).attr("href", "css/colors/aqua.min.css" );
 			return false;
 		});
 		
 		$(".brown" ).click(function(){
-			$("#colors" ).attr("href", "css/colors/brown.css" );
+			$("#colors" ).attr("href", "css/colors/brown.min.css" );
 			return false;
 		});
 		
 		$(".dark-blue" ).click(function(){
-			$("#colors" ).attr("href", "css/colors/dark-blue.css" );
+			$("#colors" ).attr("href", "css/colors/dark-blue.min.css" );
 			return false;
 		});
 		
 		$(".light-green" ).click(function(){
-			$("#colors" ).attr("href", "css/colors/light-green.css" );
+			$("#colors" ).attr("href", "css/colors/light-green.min.css" );
 			return false;
 		});
 		
 		$(".dark-red" ).click(function(){
-			$("#colors" ).attr("href", "css/colors/dark-red.css" );
+			$("#colors" ).attr("href", "css/colors/dark-red.min.css" );
 			return false;
 		});
 		
 		$(".teal" ).click(function(){
-			$("#colors" ).attr("href", "css/colors/teal.css" );
+			$("#colors" ).attr("href", "css/colors/teal.min.css" );
 			return false;
 		});
 		
 		$(".dark-purple" ).click(function(){
-			$("#colors" ).attr("href", "css/colors/dark-purple.css" );
+			$("#colors" ).attr("href", "css/colors/dark-purple.min.css" );
 			return false;
 		});
 				
