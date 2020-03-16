@@ -8,28 +8,56 @@
 </head>
 <body>
 <div class="container my-5">
-    <form>
-        <div class="row justify-content-center">
-            <div class="col-md-4 mb-3">
-                <h2>Login</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-4 mb-3">
+            <h2>Login</h2>
 
-                <div class="my-2">
-                    <label for="user-name">Username</label>
-                    <input type="text" class="form-control" id="user-name">
+            <div class="my-2">
+                <label for="user-name">Username</label>
+                <input type="text" class="form-control" id="user-name">
 
-                    <label for="password">Password</label>
-                    <input type="password" class="form-control" id="password">
-                </div>
-
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password">
             </div>
+            <p id="error-message" class="text-danger text-center"></p>
         </div>
-        <div class="text-center">
-            <button class="btn btn-primary mt-3 align-self-center" type="submit">Save</button>
-        </div>
-    </form>
+    </div>
+    <div class="text-center">
+        <button id="button" class="btn btn-primary mt-3 align-self-center">Log In</button>
+    </div>
 </div>
 </body>
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+<script>
+    $('#button').click(function () {
+        let username = $('#user-name').val();
+        let password = $('#password').val();
+        $.ajax({
+            type: 'post',
+            url: 'https://sack-live-score.herokuapp.com/login',
+            contentType: 'application/json',
+            data: JSON.stringify({
+                "username": username,
+                "password": password
+            }),
+            success: function (data) {
+                console.log(data);
+                $(location).attr('href', 'index.html')
+            },
+            error: function () {
+                $('#error-message').html('Invalid Credentials')
+            }
+        })
+    })
+</script>
+
 </html>
