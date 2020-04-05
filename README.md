@@ -4,7 +4,7 @@ Official Website of St. Anthony's College Kandy
 
 - Clone your forked repository
     ```
-    git clone https://github.com/USERNAME/sef-site
+    git clone https://github.com/USERNAME/sack-site
     cd sack-site
     ```
 - Install all the dependecies
