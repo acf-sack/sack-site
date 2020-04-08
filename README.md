@@ -1,6 +1,6 @@
 # sack-site
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Official Website of St. Anthony's College Kandy
 ## Run Locally
@@ -30,6 +30,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Gimhan-minion"><img src="https://avatars3.githubusercontent.com/u/60275681?v=4" width="100px;" alt=""/><br /><sub><b>Gimhan_minion</b></sub></a><br /><a href="https://github.com/acf-sack/sack-site/commits?author=Gimhan-minion" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Piumal1999"><img src="https://avatars2.githubusercontent.com/u/27498587?v=4" width="100px;" alt=""/><br /><sub><b>Piumal Rathnayake</b></sub></a><br /><a href="https://github.com/acf-sack/sack-site/commits?author=Piumal1999" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Gravewalker666"><img src="https://avatars0.githubusercontent.com/u/45477334?v=4" width="100px;" alt=""/><br /><sub><b>Gravewalker666</b></sub></a><br /><a href="https://github.com/acf-sack/sack-site/commits?author=Gravewalker666" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/jayasanka-sack"><img src="https://avatars1.githubusercontent.com/u/33048395?v=4" width="100px;" alt=""/><br /><sub><b>Jayasanka Weerasinghe</b></sub></a><br /><a href="https://github.com/acf-sack/sack-site/commits?author=jayasanka-sack" title="Code">💻</a></td>
   </tr>
 </table>
 
