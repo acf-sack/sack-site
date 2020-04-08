@@ -28,6 +28,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="http://www.linkedin.com/in/kumuditha-karunarathna-10562916b"><img src="https://avatars2.githubusercontent.com/u/27630091?v=4" width="100px;" alt=""/><br /><sub><b>Kumuditha Udayanga Karunarathna</b></sub></a><br /><a href="https://github.com/acf-sack/sack-site/commits?author=kumuditha-udayanga" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Piumal1999"><img src="https://avatars2.githubusercontent.com/u/27498587?v=4" width="100px;" alt=""/><br /><sub><b>Piumal Rathnayake</b></sub></a><br /><a href="https://github.com/acf-sack/sack-site/commits?author=Piumal1999" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Gimhan-minion"><img src="https://avatars3.githubusercontent.com/u/60275681?v=4" width="100px;" alt=""/><br /><sub><b>Gimhan_minion</b></sub></a><br /><a href="https://github.com/acf-sack/sack-site/commits?author=Gimhan-minion" title="Code">💻</a></td>
   </tr>
 </table>
 
