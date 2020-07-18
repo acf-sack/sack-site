@@ -1,6 +1,6 @@
 # sack-site
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Official Website of St. Anthony's College Kandy
 ## Run Locally
@@ -38,6 +38,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/gajindubandara"><img src="https://avatars2.githubusercontent.com/u/63200586?v=4" width="100px;" alt=""/><br /><sub><b>gajindubandara</b></sub></a><br /><a href="https://github.com/acf-sack/sack-site/commits?author=gajindubandara" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/sathsarabandaraj"><img src="https://avatars3.githubusercontent.com/u/62067185?v=4" width="100px;" alt=""/><br /><sub><b>sathsarabandaraj</b></sub></a><br /><a href="https://github.com/acf-sack/sack-site/commits?author=sathsarabandaraj" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/ValanceThomas5"><img src="https://avatars1.githubusercontent.com/u/52969870?v=4" width="100px;" alt=""/><br /><sub><b>ValanceThomas5</b></sub></a><br /><a href="https://github.com/acf-sack/sack-site/commits?author=ValanceThomas5" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/mushrifahamed"><img src="https://avatars3.githubusercontent.com/u/68167577?v=4" width="100px;" alt=""/><br /><sub><b>Mushrif Ahamed</b></sub></a><br /><a href="https://github.com/acf-sack/sack-site/commits?author=mushrifahamed" title="Code">💻</a></td>
   </tr>
 </table>
 
