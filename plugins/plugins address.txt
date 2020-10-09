@@ -1,7 +1,0 @@
-
-
-
-
-http://hilios.github.io/jQuery.countdown/      -   countdown          - MIT License
-
-http://maplacejs.com/             -       google maps                  -       MIT license
