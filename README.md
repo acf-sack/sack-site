@@ -1,8 +1,8 @@
-# sack-site
+# sack-site-v5
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-Official Website of St. Anthony's College Kandy
+Newly Developing Website of St. Anthony's College Kandy.
 ## Run Locally
 
 - Clone your forked repository
@@ -17,6 +17,12 @@ Official Website of St. Anthony's College Kandy
 - Start the server with `npm start`
 
 - Visit your app at http://localhost:9000
+
+## Documentation 
+
+- To learn about the theme visit [Documentation](https://demos.creative-tim.com/material-kit-react/?_ga=2.147765300.2034540508.1602232787-1299398067.1601914986#/documentation/tutorial).
+
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
