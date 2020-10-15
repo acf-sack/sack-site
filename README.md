@@ -20,7 +20,8 @@ Newly Developing Website of St. Anthony's College Kandy.
 
 ## Documentation 
 
-- To learn about the theme visit [Documentation](https://demos.creative-tim.com/material-kit-react/?_ga=2.147765300.2034540508.1602232787-1299398067.1601914986#/documentation/tutorial).
+- To learn about the theme visit [Documentation](https://demos.creative-tim.com/material-kit/docs/2.0/getting-started/introduction.html).
+- For a list of available components visit [Components Page](https://demos.creative-tim.com/material-kit/index.html).
 
 
 ## Contributors ✨
