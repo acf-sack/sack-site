@@ -2,3 +2,10 @@ node_modules/
 .idea/
 package-lock.json
 .DS_Store
+
+# Jekyll
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
