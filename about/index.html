@@ -1,4 +1,5 @@
-<!doctype html>
+---
+---
 <html lang="en">
 
 <head>
@@ -18,28 +19,10 @@
 </head>
 
 <body>
-<nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg"
-     color-on-scroll="100">
-  <div class="container">
-    <div class="navbar-translate">
-      <a class="navbar-brand" href="/">St. Anthony's College, Kandy</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false"
-              aria-label="Toggle navigation">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="navbar-toggler-icon"></span>
-        <span class="navbar-toggler-icon"></span>
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-    <div class="collapse navbar-collapse">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a href="#" class="nav-link">About</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<!-- Navbar -->
+{% include static/navbar.html %}
+<!-- //Navbar -->
+<!-- Header -->
 <div class="page-header header-filter header-small" data-parallax="true"
      style="background-image: url('img/bg.jpg')">
   <div class="container">
@@ -53,6 +36,7 @@
     </div>
   </div>
 </div>
+<!-- //Header -->
 <div class="main main-raised">
   <div class="container">
     <div class="section">
@@ -121,26 +105,9 @@
     </div>
   </div>
 </div>
-<footer class="footer footer-default">
-  <div class="container">
-    <nav class="float-left">
-      <ul>
-        <li>
-          <a href="https://www.sack.edu.lk">
-            St. Anthony's College, Kandy
-          </a>
-        </li>
-      </ul>
-    </nav>
-    <div class="copyright float-right">
-      &copy;
-      <script>
-          document.write(new Date().getFullYear())
-      </script>
-      &nbsp;Computer Fraternity, SACK
-    </div>
-  </div>
-</footer>
+<!-- Footer -->
+{% include static/footer.html %}
+<!-- //Footer -->
 </body>
 <script src="../assets/js/core/jquery.min.js"></script>
 <script src="../assets/js/core/popper.min.js"></script>

@@ -1,4 +1,5 @@
-<!doctype html>
+---
+---
 <html lang="en">
 
 <head>
@@ -20,55 +21,7 @@
 
 <body>
 <!-- Navbar -->
-<nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg"
-     color-on-scroll="100">
-  <div class="container">
-    <div class="navbar-translate">
-      <a class="navbar-brand" href="/">St. Anthony's College, Kandy</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false"
-              aria-label="Toggle navigation">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="navbar-toggler-icon"></span>
-        <span class="navbar-toggler-icon"></span>
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-    <div class="collapse navbar-collapse">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a href="#" class="nav-link">
-            <i class="material-icons">wysiwyg</i> News
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">
-            <i class="material-icons">history_edu</i> Histroy
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="about/index.html" class="nav-link">
-            <i class="material-icons">public</i> About us
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="contact_us/index.html" class="nav-link">
-            <i class="material-icons">contacts</i> Contact us
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="paste-link-here" target="_blank" data-original-title="Like us on Facebook">
-            <i class="fa fa-facebook-square"></i>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" rel="tooltip" title="" data-placement="bottom" href="paste-link-here" target="_blank" data-original-title="Follow us on Instagram">
-            <i class="fa fa-instagram"></i>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+{% include static/navbar.html %}
 <!-- //Navbar -->
 
 <!-- Header -->
@@ -82,7 +35,9 @@
           <h3 class="text-left">Lorem Ipsum is simply dummy text</h3>
         </div>
         <div class="button align-content-start">
-          <button class="btn btn-rose">Click<div class="ripple-container"></div></button>
+          <button class="btn btn-rose">Click
+            <div class="ripple-container"></div>
+          </button>
         </div>
       </div>
     </div>
@@ -107,7 +62,8 @@
                 <i class="material-icons">chat</i>
               </div>
               <h4 class="info-title">Google Classroom</h4>
-              <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+              <p>Divide details about your product or agency work into parts. Write a few lines about each
+                one. A paragraph describing a feature will be enough.</p>
             </div>
           </div>
           <div class="col-md-4">
@@ -116,7 +72,8 @@
                 <i class="material-icons">verified_user</i>
               </div>
               <h4 class="info-title">Verified Users</h4>
-              <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+              <p>Divide details about your product or agency work into parts. Write a few lines about each
+                one. A paragraph describing a feature will be enough.</p>
             </div>
           </div>
           <div class="col-md-4">
@@ -125,7 +82,8 @@
                 <i class="material-icons">fingerprint</i>
               </div>
               <h4 class="info-title">Fingerprint</h4>
-              <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
+              <p>Divide details about your product or agency work into parts. Write a few lines about each
+                one. A paragraph describing a feature will be enough.</p>
             </div>
           </div>
         </div>
@@ -136,27 +94,9 @@
 </div>
 
 <!-- Footer -->
-<footer class="footer footer-default">
-  <div class="container">
-    <nav class="float-left">
-      <ul>
-        <li>
-          <a href="https://www.sack.edu.lk">
-            St. Anthony's College, Kandy
-          </a>
-        </li>
-      </ul>
-    </nav>
-    <div class="copyright float-right">
-      &copy;
-      <script>
-          document.write(new Date().getFullYear())
-      </script>
-      &nbsp;Computer Fraternity, SACK
-    </div>
-  </div>
-</footer>
+{% include static/footer.html %}
 <!-- //Footer -->
+
 </body>
 <script src="assets/js/core/jquery.min.js"></script>
 <script src="assets/js/core/popper.min.js"></script>
