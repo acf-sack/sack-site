@@ -1,0 +1,119 @@
+.cust-card {
+  display: block;
+  background: #ffffff;
+  position: relative;
+  z-index: 3;
+  border-radius: 6px;
+  margin-top: -30px;
+}
+
+.color-overlay:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    85deg,
+    rgb(11, 11, 11) 0%,
+    rgba(250, 253, 145, 0.13) 100%
+  );
+}
+
+.cust-img {
+  width: 100%;
+}
+.cust-hr {
+  width: 100%;
+  color: black;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.bg-gradient-success {
+  background: linear-gradient(87deg, #2dce89 0, #2dcecc 100%) !important;
+}
+
+.bg-gradient-info {
+  background: linear-gradient(87deg, #11cdef 0, #1171ef 100%) !important;
+}
+
+.bg-gradient-warning {
+  background: linear-gradient(87deg, #fb6340 0, #fbb140 100%) !important;
+}
+
+.stats {
+  display: inline-flex;
+  position: relative;
+  top: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+  font-size: 16px;
+  color: #6f81a4;
+}
+
+.card-footer {
+  position: relative;
+  top: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  border: 0;
+  padding: 1.25rem 1.5rem;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top: 0.0625rem solid rgba(0, 0, 0, 0.05);
+  color: #6f81a4;
+  background-color: #f6f9fc;
+}
+
+.card-footer:last-child {
+  border-radius: 0 0 calc(0.25rem - 0.0625rem) calc(0.25rem - 0.0625rem);
+}
+
+.author {
+  display: inline-flex;
+  color: #3c4858;
+  text-decoration: none;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.avatar {
+  font-size: 1rem;
+  display: inline-flex;
+  position: relative;
+  z-index: 2;
+  border: 2px solid #fff;
+  width: 48px;
+  height: 48px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #adb5bd;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.avatar:hover {
+  z-index: 3;
+}
+
+.cust-shadow {
+  box-shadow: 0 15px 35px rgba(57, 59, 68, 0.205),
+    0 5px 15px rgba(0, 0, 0, 0.103) !important;
+}
+
+.cust-align{
+  align-items: center;
+}
