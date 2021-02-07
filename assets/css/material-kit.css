@@ -866,7 +866,7 @@ hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 3px solid rgba(128, 0, 0, 0.774);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 small,
@@ -11631,7 +11631,7 @@ a .material-icons {
 }
 
 .main {
-  background: #e5e5e5e4;
+  background: #ffffff;
   position: relative;
   z-index: 3;
 }
