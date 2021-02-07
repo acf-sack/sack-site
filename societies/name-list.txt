@@ -1,2 +1,2 @@
 Template - teplate for societie.
-ACF     -   Antonian Computer Fraternity.
+acf     -   Antonian Computer Fraternity.
