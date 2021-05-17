@@ -1,12 +1,33 @@
+categories:
+  - catName: Science
+    members:
+      - name: Thing 1
+        url: /thing1.html
+      - name: Thing 2
+        url: /thing2.html
+      - name: Thing 3
+        url: /thing3.html
+      - name: Thing 3
+        url: /thing3.html
+      
+  - catName: Maths
+    members:
+      - name: Thing 1
+        url: /thing1.html
+      - name: Thing 2
+        url: /thing2.html
+      - name: Thing 3
+        url: /thing3.html
+      - name: Thing 3
+        url: /thing3.html
 
-- name: Mrs. Lorem Ipsun
-  subject: Science
-
-- name: Mr. Lorem Ipsun
-  subject: Maths
-
-- name: Mrs. Lorem Ipsun
-  subject: Science
-
-- name: Mr. Lorem Ipsun
-  subject: Maths
+  - catName: ICT
+    members:
+      - name: Thing 1
+        url: /thing1.html
+      - name: Thing 2
+        url: /thing2.html
+      - name: Thing 3
+        url: /thing3.html
+      - name: Thing 3
+        url: /thing3.html
