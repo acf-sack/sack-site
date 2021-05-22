@@ -1,0 +1,79 @@
+---
+layout: default
+---
+<div class="page-header header-filter header-small" data-parallax="true"
+     style="background-image: url('#')">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 ml-auto mr-auto">
+                <div class="brand text-center">
+                    <h1 class="title">{{ page.title }}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main main-raised">
+    <div class="section">
+        <div class="container">
+            <div class="row justify-content-center" id="post_body">
+                <div class="col-md-7 post-content text-muted">
+                    <p>{{page.description}}</p>
+                    <h3 class="title text-center"> Highlights of the year</h3>
+                    <ul>
+                    {% for highlight in page.highlights %}
+                        <a href="{{highlight.url}}"><li>{{highlight.title}}</li></a>
+                    {% endfor %}
+                    </ul>
+                    <h3 class="title text-center"> Sport Teams</h3>
+                    {% for sport in page.sports %}
+                    <details>
+                        <summary>{{sport.name}}</summary>
+                        <ul>
+                            {% for player in sport.players %}
+                            <li>{{player}}</li>
+                            {% endfor %}
+                        </ul>
+                    </details>
+                    {% endfor %}
+                    <h3 class="title text-center">Prefects Guild</h3>
+                    {% for prefect in page.prefects %}
+                    <details>
+                        <summary>{{prefect.batch}}</summary>
+                        <ul>
+                            {% for prefect in prefect.members %}
+                            <li>{{prefect}}</li>
+                            {% endfor %}
+                        </ul>
+                    </details>
+                    {% endfor %}
+                    <h3 class="title text-center">Trophies</h3>
+                    <ul>
+                        {% for trophy in page.trophies %}
+                        <a href="{{trophy.url}}"><li>{{trophy.title}}</li></a>
+                        {% endfor %}
+                    </ul>
+                    <h3 class="title text-center">Publications</h3>
+                    <ul>
+                        {% for publication in page.publications %}
+                        <a href="{{publication.url}}"><li>{{publication.title}}</li></a>
+                        {% endfor %}
+                    </ul>
+                    <h3 class="title text-center">International Awards</h3>
+                    <ul>
+                        {% for international-award in page.international-awards %}
+                        <a href="{{international-award.url}}"><li>{{international-award.title}}</li></a>
+                        {% endfor %}
+                    </ul>
+                    <h3 class="title text-center">National Awards</h3>
+                    <ul>
+                        {% for national-award in page.national-awards %}
+                        <a href="{{national-award.url}}"><li>{{national-award.title}}</li></a>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
