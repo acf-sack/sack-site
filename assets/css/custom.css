@@ -136,3 +136,11 @@
 .cust-btn-text-color {
   color: black !important;
 }
+
+
+@media (min-width: 991px) {
+    .navbar .navbar-nav {
+        display: -webkit-box;
+    }
+}
+
