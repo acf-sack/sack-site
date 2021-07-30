@@ -1,10 +1,105 @@
-.cust-card {
-  display: block;
-  background: #ffffff;
-  position: relative;
-  z-index: 3;
+.section{
+  padding-bottom: 0px!important;
+}
+
+.main{
+  background: white!important;
+}
+
+.page-header .btn-primary{
+  background-color: #008CC4!important;
+  font-size: 12px !important;
+  letter-spacing: 1px;
+}
+.page-header .text-muted{
+  font-family: Roboto, sans-serif !important;
+  font-weight: lighter;
+  color: whitesmoke!important;
+}
+
+.section-name{
+  text-align: center;
+  font-weight: 400;
+  font-family: Roboto, sans-serif !important;
+}
+.news-section .row{
+  justify-content: center;
+}
+.card-date{
+  color: #00316A;
+  font-weight: 1000;
+  margin-bottom: 0px;
+}
+.card-title{
+  font-family: Roboto, sans-serif !important;
+  font-weight: 500!important;
+  margin-top: 0px;
+  color: #000000!important;
+}
+.news-card{
+  border: 0;
+  min-width: 29%;
+  margin-bottom: 30px;
+  margin-top: 30px;
   border-radius: 6px;
-  margin-top: -30px;
+  color: rgba(0, 0, 0, 0.87);
+  background: #ffffff;
+}
+
+.btn-section{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.btn-class{
+  align-content: center;
+  background-color: #00A6C4!important;
+  font-size: 15px !important;
+  letter-spacing: 1px !important;
+}
+
+.contact-section{
+  background-color: #F3F3F3;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.contact-section .row{
+  justify-content: center;
+}
+
+.nav-img{
+  width: 240px;
+  padding: 20px 0;
+}
+
+.navbar .search{
+  color: #008CC4;
+}
+
+.form-control, .is-focused .form-control {
+  background-image: linear-gradient(to top, #008CC4 2px, rgba(156, 39, 176, 0) 2px), linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px)!important;
+}
+
+.col-sm-8{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-contact{
+  background-color: transparent!important;
+  color: #00316A!important;
+  font-weight: 500!important;
+  font-size: 18px !important;
+  padding: 0;
+  box-shadow: none!important;
+  border: none;
+  background: none;
+}
+
+.form-inline .btn-white{
+  box-shadow: none!important;
 }
 
 .cust-post-img {

@@ -1,87 +1,39 @@
 <!-- Navbar -->
-<nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg" color-on-scroll="100">
+<nav class="navbar navbar-default navbar-expand-lg fixed-top" color-on-scroll="100">
   <div class="container">
-    <div class="navbar-translate">
-      <a class="navbar-brand" href="{{site.baseurl}}/index.html">St. Anthony's College, Kandy</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false"
-              aria-label="Toggle navigation">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="navbar-toggler-icon"></span>
-        <span class="navbar-toggler-icon"></span>
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-    <div class="collapse navbar-collapse">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Governance
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="{{site.baseurl}}/governance/administration-structure/">Administration Structure</a>
-            <a class="dropdown-item" href="{{site.baseurl}}/governance/government-ordinance/">Government Ordinance</a>
-            <a class="dropdown-item" href="{{site.baseurl}}/governance/osb-congregation/">OSB Congregation</a>
+    <div class="row justify-content-start">
+      <div class="col-sm-4">
+        <img class="nav-img" src="assets/img/nav-img.svg">
+      </div>
+      <div class="col-sm-8">
+        <div class="row justify-content-end">
+          <div class="col-sm-8">
+            <button class="btn btn-contact">
+              <i class="material-icons">call</i> 081 221 3652
+            </button>
+            <form class="form-inline">
+              <div class="form-group has-black bmd-form-group">
+                <input type="text" class="form-control" placeholder="Search">
+                <button type="submit" class="btn btn-white btn-fab">
+                  <i class="material-icons search">search</i>
+                </button>
+              </div>
+            </form>
           </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            College Staff
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Curricular Staff</a>
-            <a class="dropdown-item" href="#">Extra Curricular Staff</a>
+          <div class="col-sm-8">
+            <ul class="navbar-nav">
+              <li class="active nav-item"><a href="javascript:;" class="nav-link">Admission
+                <div class="ripple-container"></div>
+              </a></li>
+              <li class="nav-item"><a href="javascript:;" class="nav-link">Link</a></li>
+              <li class="nav-item"><a href="javascript:;" class="nav-link">Link</a></li>
+              <li class="nav-item"><a href="javascript:;" class="nav-link">Link</a></li>
+              <li class="nav-item"><a href="javascript:;" class="nav-link">Link</a></li>
+              <li class="nav-item"><a href="javascript:;" class="nav-link">Link</a></li>
+            </ul>
           </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Bursar
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="{{site.baseurl}}/bursar/index.html#school-fee">School Fee</a>
-            <a class="dropdown-item" href="{{site.baseurl}}/bursar/index.html#sds-fee">SDS Fee</a>
-            <a class="dropdown-item" href="{{site.baseurl}}/bursar/index.html">Bursar Office</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Student Societies
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="{{site.baseurl}}/societies/acf/index.html">Computer Fraternity</a>
-            <a class="dropdown-item" href="{{site.baseurl}}/societies/amu/index.html">Media Unit</a>
-            <a class="dropdown-item" href="{{site.baseurl}}/societies/template/index.html">Astrological</a>
-            <a class="dropdown-item" href="{{site.baseurl}}/societies/template/index.html">Cultural Societies</a>
-            <a class="dropdown-item" href="{{site.baseurl}}/societies/template/index.html">Religious Societies</a>
-            <a class="dropdown-item" href="{{site.baseurl}}/societies/template/index.html">Template</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Admissions
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">New Admissions</a>
-            <a class="dropdown-item" href="#">Old Admissions</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Alumni
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="{{site.baseurl}}/alumni/alumni-benefits/">Alumni Benefits</a>
-            <a class="dropdown-item" href="{{site.baseurl}}/alumni/get-involved/">Get Involved</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a href="https://blog.sack.edu.lk" target="_blank" class="nav-link">News</a>
-        </li>
-        <li class=" nav-item ">
-          <a class="btn btn-primary btn-round ml-5" href="tel:(+94)81-2213652">
-            <i class="material-icons">call</i> CALL US
-          </a>
-        </li>
-      </ul>
+        </div>
+      </div>
     </div>
   </div>
 </nav>
