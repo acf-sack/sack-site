@@ -22,6 +22,7 @@
   font-weight: 400;
   font-family: Roboto, sans-serif !important;
 }
+
 .news-section .row{
   justify-content: center;
 }
@@ -38,7 +39,8 @@
 }
 .news-card{
   border: 0;
-  min-width: 29%;
+  min-width: 14%;
+  max-width: 50%;
   margin-bottom: 30px;
   margin-top: 30px;
   border-radius: 6px;
