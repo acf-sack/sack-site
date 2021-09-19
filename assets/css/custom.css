@@ -6,6 +6,90 @@
   background: white!important;
 }
 
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+
+.search-icon {
+  display: none;
+}
+
+.phone-icon {
+  display: none;
+}
+
+.mobile-view{
+  width: 100%;
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar-nav {
+      position: fixed;
+      left: -100%;
+      top: 6rem;
+      flex-direction: column;
+      background-color: #fff;
+      width: 100%;
+      border-radius: 10px;
+      text-align: center;
+      transition: 0.3s;
+      box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+
+  .navbar-nav.active {
+      left: 0;
+  }
+
+  .navbar-nav {
+      margin: 2.5rem 0;
+  }
+
+  .search-icon {
+    display: block;
+    margin-right: 5.0rem;
+  }
+
+  .phone-icon {
+    display: block;
+    margin-right: 5.0rem;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .bmd-form-group {
+    display: none !important;
+  }  
+
+  .btn-contact {
+    display: none !important;
+  }
+
+}
+
 .page-header .btn-primary{
   background-color: #008CC4!important;
   font-size: 12px !important;
