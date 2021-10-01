@@ -317,3 +317,9 @@
 .cust-btn-text-color {
   color: black !important;
 }
+
+.dropcap{
+  color: #2E8DEF;
+  font-size: 25px;
+  padding: 5px 0;
+}
