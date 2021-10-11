@@ -317,3 +317,52 @@
 .cust-btn-text-color {
   color: black !important;
 }
+
+/*Google classroom*/
+.googleClassroom .btn {
+  background-color: #2980B9;
+  color: #fff;
+  display: inline-block;
+  border-radius: 50px;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  text-transform: none;
+}
+
+
+.googleClassroom .btn:hover {
+  background-color: #2E8DEF;
+}
+
+ body h3, body h4, body h5 {
+  font-family: Lato, sans-serif;
+  color: #2e8df3;
+  font-weight: 700;
+}
+
+ body h5 {
+  color: #3a3a3a;
+}
+
+ .googleClassroom .img-responsive{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ .googleClassroom .list {
+   font-family: 'Open Sans', sans-serif;
+   color: #888888;
+   font-weight: 400;
+ }
+
+.googleClassroom .text {
+  font-size: 1.125rem;
+  line-height: 1.5em;
+  font-weight: 700;
+
+   }
