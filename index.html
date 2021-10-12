@@ -1,7 +1,8 @@
 ---
 layout: default
-title: St. Anthony's College Kandy
+title: St. Anthony's College Kandy - Lux de Coelo
 ---
+
 <!-- Header -->
 <div class="page-header header-filter" data-parallax="true"
   style="background-image: url('assets/img/header-image.webp')">
@@ -9,12 +10,12 @@ title: St. Anthony's College Kandy
     <div class="row">
       <div class="col-md-12 ml-auto mr-auto">
         <div class="title text-left">
-          <h1>Lorem Ipsum Dollar <br>Sit Amet</h1>
-          <p class="text-muted">
-            nterdum et malesuada fames ac ante ipsum <br>primis in faucibus. Suspendisse vel mi dui.
+          <h1>St. Anthony's College</h1>
+          <p style="font-family: 'Roboto'; font-size: 20px; font-weight: 400;">
+            Since 1854
           </p>
         </div>
-        <a href="#resource-section" class="btn btn-primary btn-sm">GO TO CLASSROOM</a>
+        <a href="{{ site.baseurl }}/history" class="btn btn-primary btn-sm">OUR HISTORY</a>
       </div>
     </div>
   </div>
@@ -79,24 +80,24 @@ title: St. Anthony's College Kandy
                 <div class="card-body pt-2">
                   <h4 class="card-title mt-2">Google Classroom</h4>
                   <p class="card-text">
-                    Fusce maximus nisl vitae dolor suscipit, tempus hendrerit turpis eleifend. Proin interdum
-                    tortor vel erat finibus, sit amet ultrices augue congue. Cras consectetur, sapien ac gravida
-                    vulputate, arcu nibh maximus mi, quis laoreet odio e...
+                    To learn more about Google Classroom, Please click the button below.
+                    <br>
+                    <br>
+                    <br>
                   </p>
-                  <a href="#" class="btn btn-class btn-sm">VISIT</a>
+                  <a href="{{ site.baseurl }}/google_classroom" class="btn btn-class btn-sm">Learn More</a>
                 </div>
               </div>
             </div>
             <div class="col-md-6">
               <div class="card">
                 <div class="card-body pt-2">
-                  <h4 class="card-title mt-2">Google Classroom</h4>
+                  <h4 class="card-title mt-2">Archival Collection Form</h4>
                   <p class="card-text">
-                    Fusce maximus nisl vitae dolor suscipit, tempus hendrerit turpis eleifend. Proin interdum
-                    tortor vel erat finibus, sit amet ultrices augue congue. Cras consectetur, sapien ac gravida
-                    vulputate, arcu nibh maximus mi, quis laoreet odio e...
+                    We respectfully reach out to the past students of St. Anthony’s College, Kandy who hold materials of
+                    historical or scholarly value to transfer their records to the archival collection
                   </p>
-                  <a href="#" class="btn btn-class btn-sm">VISIT</a>
+                  <a href="https://forms.gle/PifpcctKBHz81iDE6" target="_blank" class="btn btn-class btn-sm">OPEN</a>
                 </div>
               </div>
             </div>
@@ -108,20 +109,20 @@ title: St. Anthony's College Kandy
       <!-- Calendar section-->
       <!--Temporary-->
       <script>
-          document.addEventListener('DOMContentLoaded', function() {
-              var calendarEl = document.getElementById('calendar');
-              var calendar = new FullCalendar.Calendar(calendarEl, {
-                  googleCalendarApiKey: 'AIzaSyA2kHgMSeggLSBPuIOqPH2rxdyhPF4ZKH4',
-                  events: {
-                      googleCalendarId: 'admin@sack.edu.lk'
-                  },
-                  initialView: 'timeGridWeek',
-                  slotMinTime: '07:00:00',
-                  slotMaxTime: '18:00:00',
-                  firstDay: 1
-              });
-              calendar.render();
+        document.addEventListener('DOMContentLoaded', function () {
+          var calendarEl = document.getElementById('calendar');
+          var calendar = new FullCalendar.Calendar(calendarEl, {
+            googleCalendarApiKey: 'AIzaSyA2kHgMSeggLSBPuIOqPH2rxdyhPF4ZKH4',
+            events: {
+              googleCalendarId: 'admin@sack.edu.lk'
+            },
+            initialView: 'timeGridWeek',
+            slotMinTime: '07:00:00',
+            slotMaxTime: '18:00:00',
+            firstDay: 1
           });
+          calendar.render();
+        });
       </script>
       <div class="calendar-section">
         <h2 class="section-name">What’s happening this week?</h2>
