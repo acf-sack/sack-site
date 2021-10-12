@@ -367,3 +367,8 @@
   font-weight: 700;
 
    }
+
+#calendar{
+  max-width: 800px;
+  margin: 40px auto;
+}

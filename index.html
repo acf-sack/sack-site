@@ -106,14 +106,26 @@ title: St. Anthony's College Kandy
       <!-- //Quick Access section -->
 
       <!-- Calendar section-->
+      <!--Temporary-->
+      <script>
+          document.addEventListener('DOMContentLoaded', function() {
+              var calendarEl = document.getElementById('calendar');
+              var calendar = new FullCalendar.Calendar(calendarEl, {
+                  googleCalendarApiKey: 'AIzaSyA2kHgMSeggLSBPuIOqPH2rxdyhPF4ZKH4',
+                  events: {
+                      googleCalendarId: 'admin@sack.edu.lk'
+                  },
+                  initialView: 'timeGridWeek',
+                  slotMinTime: '07:00:00',
+                  slotMaxTime: '18:00:00',
+                  firstDay: 1
+              });
+              calendar.render();
+          });
+      </script>
       <div class="calendar-section">
         <h2 class="section-name">What’s happening this week?</h2>
-        <div class="row">
-          <!--     Add calendar here     -->
-        </div>
-        <div class="btn-section">
-          <button type="button" class="btn btn-class btn-sm">VIEW FULL CALENDAR</button>
-        </div>
+        <div id='calendar'></div>
       </div>
       <!-- //Calendar section-->
     </div>
