@@ -1,0 +1,57 @@
+---
+layout: default
+title: Curricular Staff | St. Anthony's College Kandy
+---
+
+
+<!-- Header -->
+<div class="page-header header-filter header-small" data-parallax="true" style="background-image: url('#')">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 ml-auto mr-auto">
+        <div class="brand text-center">
+          <h1 class="title">Curricular Staff</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- //Header -->
+<div class="main main-raised">
+  <div class="section text-center">
+    <div class="accordion" id="accordionExample">
+      {% for items in site.data.teachers.categories %}
+      <div class="row">
+        <div class="col-md-12">
+          <div id="{{ items.catName }}">
+            <div class="align-content-center">
+              <button class="btn btn-lg btn-link btn-block text-center pt-0 pb-0 mt-0 mb-0" type="button"
+                data-toggle="collapse" data-target="#collapse{{ items.catName }}" aria-expanded="true"
+                aria-controls="collapse{{ items.catName }}">
+                <h3 class="h3 mt-1 cust-btn-text-color">
+                  {{ items.catName }}
+                </h3>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section pt-1 pb-2">
+        <div id="collapse{{ items.catName }}"
+          class="collapse" aria-labelledby="items.catName"
+          data-parent="#accordionExample">
+          <div class="section pt-0 pb-3">
+            <div class="row">
+              {% for teacher in items.members %}
+              <div class="col-md-3 text-center">
+                <p> {{teacher.name}} </p>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

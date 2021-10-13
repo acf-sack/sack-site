@@ -1,22 +1,42 @@
-# sack-site
+# sack-site-v5
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-Official Website of St. Anthony's College Kandy
+Newly Developing Website of St. Anthony's College Kandy.
 ## Run Locally
+### Installing Ruby and Jekyll
+
+- Install Ruby and Jekyll
+1. [macOS](https://jekyllrb.com/docs/installation/macos/) 
+1. [Ubuntu](https://jekyllrb.com/docs/installation/ubuntu/) 
+1. [Windows](https://jekyllrb.com/docs/installation/windows/).
+1. [Other Linux](https://jekyllrb.com/docs/installation/other-linux/).
+
 
 - Clone your forked repository
     ```
     git clone https://github.com/USERNAME/sack-site
     cd sack-site
     ```
-- Install all the dependecies
-    ```
-    npm install
-    ```
-- Start the server with `npm start`
 
-- Visit your app at http://localhost:9000
+- Install all the dependencies
+    ```
+    bundle install
+    ```
+
+- Start the server with
+    ```
+    bundle exec jekyll serve
+    ``` 
+
+- Visit your app at http://localhost:4000
+
+## Documentation 
+
+- To learn about the theme visit [Documentation](https://demos.creative-tim.com/material-kit/docs/2.0/getting-started/introduction.html).
+- For a list of available components visit [Components Page](https://demos.creative-tim.com/material-kit/index.html).
+
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):

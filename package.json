@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/acf-sack/sack-site#readme",
   "dependencies": {
-    "http-server": "^0.12.1"
+    "http-server": "^0.12.1",
+    "jquery": "^3.5.1"
   }
 }

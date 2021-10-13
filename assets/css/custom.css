@@ -1,0 +1,374 @@
+.section{
+  padding-bottom: 0px!important;
+}
+
+.main{
+  background: white!important;
+}
+
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+
+.search-icon {
+  display: none;
+}
+
+.phone-icon {
+  display: none;
+}
+
+.mobile-view{
+  width: 100%;
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar-nav {
+      position: fixed;
+      left: -100%;
+      top: 6rem;
+      flex-direction: column;
+      background-color: #fff;
+      width: 100%;
+      border-radius: 10px;
+      text-align: center;
+      transition: 0.3s;
+      box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+
+  .navbar-nav.active {
+      left: 0;
+  }
+
+  .navbar-nav {
+      margin: 2.5rem 0;
+  }
+
+  .search-icon {
+    display: block;
+    margin-right: 5.0rem;
+  }
+
+  .phone-icon {
+    display: block;
+    margin-right: 5.0rem;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .bmd-form-group {
+    display: none !important;
+  }  
+
+  .btn-contact {
+    display: none !important;
+  }
+
+}
+
+.page-header .btn-primary{
+  background-color: #008CC4!important;
+  font-size: 12px !important;
+  letter-spacing: 1px;
+}
+.page-header .text-muted{
+  font-family: Roboto, sans-serif !important;
+  font-weight: lighter;
+  color: whitesmoke!important;
+}
+
+.section-name{
+  text-align: center;
+  font-weight: 400;
+  font-family: Roboto, sans-serif !important;
+}
+
+.news-section .row{
+  justify-content: center;
+}
+.card-date{
+  color: #00316A;
+  font-weight: 1000;
+  margin-bottom: 0px;
+}
+.card-title{
+  font-family: Roboto, sans-serif !important;
+  font-weight: 500!important;
+  margin-top: 0px;
+  color: #000000!important;
+}
+.news-card{
+  border: 0;
+  min-width: 14%;
+  max-width: 50%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  border-radius: 6px;
+  color: rgba(0, 0, 0, 0.87);
+  background: #ffffff;
+}
+
+.btn-section{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.btn-class{
+  align-content: center;
+  background-color: #00A6C4!important;
+  font-size: 15px !important;
+  letter-spacing: 1px !important;
+}
+
+.contact-section{
+  background-color: #F3F3F3;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.contact-section .row{
+  justify-content: center;
+}
+
+.nav-img{
+  width: 240px;
+  padding: 20px 0;
+}
+
+.navbar .search{
+  color: #008CC4;
+}
+
+.form-control, .is-focused .form-control {
+  background-image: linear-gradient(to top, #008CC4 2px, rgba(156, 39, 176, 0) 2px), linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px)!important;
+}
+
+.col-sm-8{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-contact{
+  background-color: transparent!important;
+  color: #00316A!important;
+  font-weight: 500!important;
+  font-size: 18px !important;
+  padding: 0;
+  margin-right: 20px;
+  box-shadow: none!important;
+  border: none;
+  background: none;
+}
+
+.form-inline .btn-white{
+  box-shadow: none!important;
+}
+
+.cust-post-img {
+  width: 100%;
+  border-radius: calc(0.25rem - 1px);
+}
+
+.color-overlay:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.cust-img {
+  width: 100%;
+}
+.cust-hr {
+  width: 100%;
+  color: black;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.bg-gradient-success {
+  background: linear-gradient(87deg, #2dce89 0, #2dcecc 100%) !important;
+}
+
+.bg-gradient-info {
+  background: linear-gradient(87deg, #11cdef 0, #1171ef 100%) !important;
+}
+
+.bg-gradient-warning {
+  background: linear-gradient(87deg, #fb6340 0, #fbb140 100%) !important;
+}
+
+.stats {
+  display: inline-flex;
+  position: relative;
+  top: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+  font-size: 16px;
+  color: #6f81a4;
+}
+
+.card-footer {
+  position: relative;
+  top: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  border: 0;
+  padding: 1.25rem 1.5rem;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top: 0.0625rem solid rgba(0, 0, 0, 0.05);
+  color: #6f81a4;
+  background-color: #f6f9fc;
+}
+
+.card-footer:last-child {
+  border-radius: 0 0 calc(0.25rem - 0.0625rem) calc(0.25rem - 0.0625rem);
+}
+
+.author {
+  display: inline-flex;
+  color: #3c4858;
+  text-decoration: none;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.avatar {
+  font-size: 1rem;
+  display: inline-flex;
+  position: relative;
+  z-index: 2;
+  border: 2px solid rgb(236, 236, 236);
+  width: 48px;
+  height: 48px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #c9c9c9;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.avatar:hover {
+  z-index: 3;
+}
+
+.cust-shadow {
+  box-shadow: 0 15px 35px rgba(57, 59, 68, 0.205),
+    0 5px 15px rgba(0, 0, 0, 0.103) !important;
+}
+
+.cust-align {
+  align-items: center;
+}
+
+.cust-main-raised {
+  margin: -60px 30px 0;
+  margin-top: -270px;
+  border-radius: 6px;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14),
+    0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 830px) {
+  .cust-main-raised {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.cust-btn-text-color {
+  color: black !important;
+}
+
+/*Google classroom*/
+.googleClassroom .btn {
+  background-color: #2980B9;
+  color: #fff;
+  display: inline-block;
+  border-radius: 50px;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  text-transform: none;
+}
+
+
+.googleClassroom .btn:hover {
+  background-color: #2E8DEF;
+}
+
+ body h3, body h4, body h5 {
+  font-family: Lato, sans-serif;
+  color: #2e8df3;
+  font-weight: 700;
+}
+
+ body h5 {
+  color: #3a3a3a;
+}
+
+ .googleClassroom .img-responsive{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ .googleClassroom .list {
+   font-family: 'Open Sans', sans-serif;
+   color: #888888;
+   font-weight: 400;
+ }
+
+.googleClassroom .text {
+  font-size: 1.125rem;
+  line-height: 1.5em;
+  font-weight: 700;
+
+   }
+
+#calendar{
+  max-width: 800px;
+  margin: 40px auto;
+}
