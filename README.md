@@ -1,6 +1,6 @@
 # sack-site-v5
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Newly Developing Website of St. Anthony's College Kandy.
 ## Run Locally
@@ -60,6 +60,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/ValanceThomas5"><img src="https://avatars1.githubusercontent.com/u/52969870?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ValanceThomas5</b></sub></a><br /><a href="https://github.com/acf-sack/sack-site/commits?author=ValanceThomas5" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/mushrifahamed"><img src="https://avatars3.githubusercontent.com/u/68167577?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mushrif Ahamed</b></sub></a><br /><a href="https://github.com/acf-sack/sack-site/commits?author=mushrifahamed" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Hasthikagirihagama"><img src="https://avatars.githubusercontent.com/u/70457601?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hasthika Girihagama</b></sub></a><br /><a href="https://github.com/acf-sack/sack-site/commits?author=Hasthikagirihagama" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/akeel230"><img src="https://avatars.githubusercontent.com/u/83522139?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Seyed Akeel</b></sub></a><br /><a href="https://github.com/acf-sack/sack-site/commits?author=akeel230" title="Code">💻</a></td>
   </tr>
 </table>
 
