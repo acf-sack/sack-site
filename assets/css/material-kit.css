@@ -16912,6 +16912,7 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
 }
 
 footer {
+  background-color: #eeeeee;
   padding: 0.9375rem 0;
   text-align: center;
   display: -webkit-flex;
