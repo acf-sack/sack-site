@@ -2,6 +2,9 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+[Google Custom Search for St. Anthony's College](https://cse.google.com/cse?cx=0d0e16178888ed100)
+
 Newly Developing Website of St. Anthony's College Kandy.
 ## Run Locally
 ### Installing Ruby and Jekyll
