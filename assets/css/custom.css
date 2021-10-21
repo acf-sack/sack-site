@@ -372,3 +372,20 @@
   max-width: 800px;
   margin: 40px auto;
 }
+
+/* for history page  */
+.main > .section > .container > #resource-section > .container > img {
+  margin: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+  .main > .section > .container > #resource-section > .container > img {
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main > .section > .container > #resource-section > .container > img {
+    margin: 5px;
+  }
+}
