@@ -389,3 +389,18 @@
     margin: 5px;
   }
 }
+
+/*Homepage Search Bar*/
+.searchbar .gsc-search-button-v2 {
+  padding: 8px 10px 0px 10px !important;
+  background-color: #00a6c4 !important;
+  border-color: #00a6c4 !important;
+}
+
+.searchbar .gsc-input-box {
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
+  border-bottom: 1px solid #dfe1e5 !important;;
+}
+/*End of Homepage Search Bar*/
