@@ -4,7 +4,6 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Available at: [sack.edu.lk](http://sack.edu.lk/)
 
-
 ## Run Locally
 ### Installing Ruby and Jekyll
 
