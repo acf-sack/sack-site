@@ -1,8 +1,10 @@
-# sack-site-v5
+# The official website of St. Anthony's College Kandy.
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-Newly Developing Website of St. Anthony's College Kandy.
+Available at: [sack.edu.lk](http://sack.edu.lk/)
+
+
 ## Run Locally
 ### Installing Ruby and Jekyll
 
