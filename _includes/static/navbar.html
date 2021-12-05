@@ -13,7 +13,9 @@
                 <i class="material-icons">call</i> 081 221 3652
               </button>
               <form class="form-inline searchbar">
-                <div class="gcse-search"></div>
+                <div class="searchLarge">
+                  <div class="gcse-search"></div>
+                </div>
               </form>
             </div>
             <div class="col-sm-8">
@@ -31,15 +33,38 @@
           <i class="material-icons">call</i>
         </div>
         <div class="search-icon ">
-          <i class="material-icons search">search</i>
+          <div onclick="showSearchbar()"><i class="material-icons search">search</i></div>
         </div>
         <div class="hamburger ">
           <span class="bar"></span>
           <span class="bar"></span>
           <span class="bar"></span>
         </div>
+        <br>
+        <div class="searchbar">
+          <div class="searchSmall" id="SearchBar" style="display: none">
+            <div class="gcse-search"></div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </nav>
 <!-- //Navbar -->
+<!--Function for the search bar-->
+<script>
+  function showSearchbar() {
+    let x = document.getElementById("SearchBar");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+</script>
+
+
+
+
+
+

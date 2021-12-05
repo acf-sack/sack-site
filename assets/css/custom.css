@@ -405,3 +405,16 @@
   width: 150px !important;
 }
 
+@media screen and (min-width: 992px) {
+  .searchSmall{display: none;}
+}
+
+@media screen and (max-width: 992px) {
+  .searchLarge{display: none;}
+  .searchbar .gsc-control-cse{
+    margin-left: 200px !important;
+    margin-right: 200px !important;
+  }
+
+}
+/*End of Homepage Search Bar*/
