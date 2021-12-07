@@ -406,7 +406,7 @@
 }
 
 @media screen and (min-width: 992px) {
-  .searchSmall{display: none;}
+  .searchSmall{display: none !important;}
 }
 
 @media screen and (max-width: 992px) {
