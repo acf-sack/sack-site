@@ -391,13 +391,13 @@
 }
 
 /*Homepage Search Bar*/
-.searchbar .gsc-search-button-v2 {
+.gsc-search-button-v2 {
   padding: 8px 10px 0px 10px !important;
   background-color: #00a6c4 !important;
   border-color: #00a6c4 !important;
 }
 
-.searchbar .gsc-input-box {
+ .gsc-input-box {
   border-left: none !important;
   border-right: none !important;
   border-top: none !important;
@@ -405,3 +405,16 @@
   width: 150px !important;
 }
 
+@media screen and (min-width: 992px) {
+  .searchSmall{display: none !important;}
+}
+
+@media screen and (max-width: 992px) {
+  .searchLarge{display: none;}
+  .gsc-control-cse{
+    margin-left: 200px !important;
+    margin-right: 200px !important;
+  }
+
+}
+/*End of Homepage Search Bar*/
