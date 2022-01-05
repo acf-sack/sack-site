@@ -390,6 +390,10 @@
   }
 }
 
+.HistoryPageParagraph {
+  font-family: roboto;
+}
+
 /*Homepage Search Bar*/
 .gsc-search-button-v2 {
   padding: 8px 10px 0px 10px !important;
