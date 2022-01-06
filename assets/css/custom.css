@@ -33,7 +33,7 @@
 }
 
 #NavBtnHover a:hover {
-  background-color: lawngreen;
+  background-color: #cbcbcb;
 }
 
 @media only screen and (max-width: 991px) {
