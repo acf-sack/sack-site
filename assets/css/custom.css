@@ -32,6 +32,10 @@
   width: 100%;
 }
 
+#NavBtnHover a:hover {
+  background-color: #bdbdbd;
+}
+
 @media only screen and (max-width: 991px) {
   .navbar-nav {
       position: fixed;
