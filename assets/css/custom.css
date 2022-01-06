@@ -32,7 +32,7 @@
   width: 100%;
 }
 
-#NavBtnHover a:hover {
+.nav-btn-hover a:hover {
   background-color: #dedede;
 }
 
