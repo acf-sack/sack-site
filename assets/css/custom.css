@@ -582,4 +582,8 @@
   font-weight:normal;
 }
 
+.acf-gclass-card p{
+  color: #000000 !important;
+  opacity: 0.8;
+}
 /*End Society Page*/
