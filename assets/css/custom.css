@@ -572,4 +572,10 @@
   display: table;
   clear: both
 }
+
+.advisor-headings h4{
+  color: #008CC4;
+  font-weight:normal;
+}
+
 /*End Society Page*/
