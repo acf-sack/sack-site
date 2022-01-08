@@ -587,7 +587,29 @@
   opacity: 0.8;
 }
 
+.acf-gclass-card{
+  padding: 5px 5px 20px 5px;
+}
+
 .text-light-blue{
   color: #008CC4 !important;
+}
+
+.check-mark-success{
+  width: 26px;
+  color: white;
+  background-color: #4caf50;
+  padding: 5px;
+  border-radius: 15px;
+  margin-left: auto;
+}
+
+.check-mark-muted{
+  width: 26px;
+  color: white;
+  background-color: #cccccc;
+  padding: 5px;
+  border-radius: 15px;
+  margin-left: auto;
 }
 /*End Society Page*/
