@@ -28,6 +28,10 @@
   display: none;
 }
 
+a {
+  color: #00316A;
+}
+
 .mobile-view{
   width: 100%;
 }
