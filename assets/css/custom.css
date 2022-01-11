@@ -36,11 +36,11 @@
   background-color: #dedede;
 }
 
-.phone-number {
+.btn-contact a {
   color: #00316A;
 }
 
-.phone-number:hover {
+.btn-contact a:hover {
   color: #00316A;
 }
 
