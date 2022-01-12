@@ -163,6 +163,10 @@
   justify-content: center;
 }
 
+.contact-section a{
+  color: #00316A;
+}
+
 .nav-img{
   width: 240px;
   padding: 20px 0;
@@ -617,6 +621,3 @@
   margin-left: auto;
 }
 /*End Society Page*/
-.contact-section a{
-  color: #00316A;
-}
