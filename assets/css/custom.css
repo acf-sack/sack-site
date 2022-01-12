@@ -40,6 +40,14 @@
   color: #00316A;
 }
 
+.phone {
+  color: #101010;
+}
+
+.phone:hover {
+  color: #101010;
+}
+
 @media only screen and (max-width: 991px) {
   .navbar-nav {
       position: fixed;
