@@ -67,7 +67,7 @@
     margin-right: 5.0rem;
   }
 
-  .phone-icon {
+  .phone-icon a{
     display: block;
     margin-right: 5.0rem;
     color: #101010;
