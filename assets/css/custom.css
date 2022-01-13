@@ -72,6 +72,10 @@
     margin-right: 5.0rem;
   }
 
+  .phone-icon a{
+    color: #101010;
+  }
+
   .hamburger {
     display: block;
   }
