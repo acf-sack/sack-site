@@ -36,6 +36,10 @@
   background-color: #dedede;
 }
 
+.btn-contact a {
+  color: #00316A;
+}
+
 @media only screen and (max-width: 991px) {
   .navbar-nav {
       position: fixed;
@@ -66,6 +70,10 @@
   .phone-icon {
     display: block;
     margin-right: 5.0rem;
+  }
+
+  .phone-icon a{
+    color: #101010;
   }
 
   .hamburger {
@@ -157,6 +165,10 @@
 
 .contact-section .row{
   justify-content: center;
+}
+
+.contact-section a{
+  color: #00316A;
 }
 
 .nav-img{
