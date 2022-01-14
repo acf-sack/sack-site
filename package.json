@@ -17,7 +17,13 @@
   },
   "homepage": "https://github.com/acf-sack/sack-site#readme",
   "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-open": "^3.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
     "http-server": "^0.12.1",
-    "jquery": "^3.5.1"
+    "jquery": "^3.5.1",
+    "sass": "^1.48.0"
   }
 }
