@@ -40,7 +40,7 @@
   color: #00316A;
 }
 
-.google-map {
+.contact-us .google-map {
   position: relative;
   top: 114px;
   z-index: 99;
@@ -106,7 +106,7 @@
     display: none !important;
   }
 
-  .google-map {
+  .contact-us .google-map {
     top: 123px;
   }
 
