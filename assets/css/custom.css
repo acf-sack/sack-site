@@ -40,6 +40,15 @@
   color: #00316A;
 }
 
+.google-map {
+  width: 121.6%; 
+  position: relative; 
+  top: 90px; 
+  right: 120px; 
+  z-index: 99; 
+  height: 100%;
+}
+
 @media only screen and (max-width: 991px) {
   .navbar-nav {
       position: fixed;
