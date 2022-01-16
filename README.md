@@ -1,6 +1,6 @@
 # The official website of St. Anthony's College, Kandy.
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 Available at: [sack.edu.lk](http://sack.edu.lk/)
 
@@ -63,6 +63,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Hasthikagirihagama"><img src="https://avatars.githubusercontent.com/u/70457601?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hasthika Girihagama</b></sub></a><br /><a href="https://github.com/acf-sack/sack-site/commits?author=Hasthikagirihagama" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/akeel230"><img src="https://avatars.githubusercontent.com/u/83522139?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Seyed Akeel</b></sub></a><br /><a href="https://github.com/acf-sack/sack-site/commits?author=akeel230" title="Code">💻</a></td>
     <td align="center"><a href="https://yoshitharathnayake.w3spaces.com/Index.html"><img src="https://avatars.githubusercontent.com/u/97069900?v=4?s=100" width="100px;" alt=""/><br /><sub><b>YOSHITHA RATHNAYAKE</b></sub></a><br /><a href="https://github.com/acf-sack/sack-site/commits?author=Yoshitha-SACK" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/VishwaAmarasinghe"><img src="https://avatars.githubusercontent.com/u/90438593?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Vishwa Amarasinghe</b></sub></a><br /><a href="https://github.com/acf-sack/sack-site/commits?author=VishwaAmarasinghe" title="Code">💻</a></td>
   </tr>
 </table>
 
