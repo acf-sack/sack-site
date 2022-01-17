@@ -33,7 +33,6 @@ jobs:
       - name: Deploy to surge
         env:
           SURGE_LOGIN: admin@sack.edu.lk
-          SURGE_TOKEN: ${{secrets.SURGE_TOKEN}}
+          SURGE_TOKEN: dd308e9475068af08c5d90e149ab30db
           DEPLOY_DOMAIN: https://pr-${{ github.event.number }}-sack-site.surge.sh
         run: surge ./ $DEPLOY_DOMAIN --token $SURGE_TOKEN
-        
