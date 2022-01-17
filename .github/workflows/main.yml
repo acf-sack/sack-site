@@ -36,3 +36,4 @@ jobs:
           SURGE_TOKEN: ${{secrets.SURGE_TOKEN}}
           DEPLOY_DOMAIN: https://pr-${{ github.event.number }}-sack-site.surge.sh
         run: surge ./ $DEPLOY_DOMAIN --token $SURGE_TOKEN
+        
