@@ -42,8 +42,19 @@
 
 .contact-us .google-map {
   position: relative;
-  top: 114px;
-  z-index: 99;
+  top: -112px;
+  right: 263px;
+  margin: 150px;
+  padding: 100px;
+}
+
+.contact-us .google-map .map {
+  border:0;
+  position: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; 
 }
 
 @media only screen and (max-width: 991px) {
@@ -107,7 +118,7 @@
   }
 
   .contact-us .google-map {
-    top: 123px;
+    top: -105px;
   }
 
 }
