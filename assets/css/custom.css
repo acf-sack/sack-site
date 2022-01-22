@@ -42,9 +42,9 @@
 
 .contact-us .google-map {
   position: relative;
-  top: -112px;
-  right: 263px;
-  margin: 150px;
+  top: -82px;
+  right: 233px;
+  margin: 119px;
   padding: 100px;
 }
 
@@ -118,7 +118,9 @@
   }
 
   .contact-us .google-map {
-    top: -105px;
+    top: -79px;
+    margin: 125px;
+    right: 240px;
   }
 
 }
