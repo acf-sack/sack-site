@@ -365,16 +365,6 @@
   background-color: #2E8DEF;
 }
 
- body h3, body h4, body h5 {
-  font-family: Lato, sans-serif;
-  color: #2e8df3;
-  font-weight: 700;
-}
-
- body h5 {
-  color: #3a3a3a;
-}
-
  .googleClassroom .img-responsive{
   display: block;
   max-width: 100%;
