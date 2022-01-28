@@ -40,12 +40,6 @@
   color: #00316A;
 }
 
-.contact-us .google-map {
-  position: relative;
-  top: 114px;
-  z-index: 99;
-}
-
 @media only screen and (max-width: 991px) {
   .navbar-nav {
       position: fixed;
@@ -104,10 +98,6 @@
 
   .btn-contact {
     display: none !important;
-  }
-
-  .contact-us .google-map {
-    top: 123px;
   }
 
 }
