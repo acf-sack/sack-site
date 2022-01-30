@@ -2,10 +2,6 @@
   padding-bottom: 0px!important;
 }
 
-.text-roboto {
-  font-family: Roboto;
-}
-
 .main{
   background: white!important;
 }
@@ -42,12 +38,6 @@
 
 .btn-contact a {
   color: #00316A;
-}
-
-.contact-us .google-map {
-  position: relative;
-  top: 114px;
-  z-index: 99;
 }
 
 @media only screen and (max-width: 991px) {
@@ -108,10 +98,6 @@
 
   .btn-contact {
     display: none !important;
-  }
-
-  .contact-us .google-map {
-    top: 123px;
   }
 
 }
