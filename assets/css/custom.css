@@ -598,20 +598,22 @@
 }
 
 .check-mark-success{
-  width: 26px;
+  width: 25px;
+  height: 25px;
   color: white;
   background-color: #4caf50;
-  padding: 5px;
-  border-radius: 15px;
+  padding: 4px;
+  border-radius:50%;
   margin-left: auto;
 }
 
 .check-mark-muted{
-  width: 26px;
+  width: 25px;
+  height: 25px;
   color: white;
   background-color: #cccccc;
-  padding: 5px;
-  border-radius: 15px;
+  padding: 4px;
+  border-radius: 50%;
   margin-left: auto;
 }
 /*End Society Page*/
