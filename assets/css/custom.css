@@ -50,6 +50,12 @@
   width: 71rem;
 }
 
+.contact-us .google-map {
+  position: relative;
+  bottom: 8px;
+  height: 293px;
+}
+
 @media only screen and (max-width: 991px) {
   .navbar-nav {
       position: fixed;
@@ -108,6 +114,12 @@
 
   .btn-contact {
     display: none !important;
+  }
+
+  .contact-us .google-map {
+    bottom: 0px;
+    height: 293px;
+    z-index: 99;
   }
 
 }
@@ -606,20 +618,22 @@
 }
 
 .check-mark-success{
-  width: 26px;
+  width: 25px;
+  height: 25px;
   color: white;
   background-color: #4caf50;
-  padding: 5px;
-  border-radius: 15px;
+  padding: 4px;
+  border-radius:50%;
   margin-left: auto;
 }
 
 .check-mark-muted{
-  width: 26px;
+  width: 25px;
+  height: 25px;
   color: white;
   background-color: #cccccc;
-  padding: 5px;
-  border-radius: 15px;
+  padding: 4px;
+  border-radius: 50%;
   margin-left: auto;
 }
 /*End Society Page*/
