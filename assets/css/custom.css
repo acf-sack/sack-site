@@ -46,6 +46,10 @@
   height: 293px;
 }
 
+.copyright-statement {
+  color: black;
+}
+
 @media only screen and (max-width: 991px) {
   .navbar-nav {
       position: fixed;
