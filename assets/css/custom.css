@@ -456,6 +456,10 @@
   transition: 0.3s background-color 0s;
 }
 
+.society-nav-link:hover, .society-nav-link.active:hover {
+  background-color: rgb(215, 215, 215);
+}
+
 .society-nav-link.active {
   background-color: rgba(138, 138, 138, 0.2);
   transition: 0.3s background-color 0.2s;
