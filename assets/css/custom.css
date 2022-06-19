@@ -113,10 +113,20 @@
   }
 
   .nav-img {
-    margin-bottom: 10px;
+    top: 0;
     left: 10px;
+    width: 240px;
+    padding: 20px 0;
   }
+}
 
+@media only screen and (min-width: 991px) {
+  .nav-img{
+    width: 240px;
+    padding: 20px 0;
+    position: relative;
+    top: 10px;
+  }
 }
 
 .page-header .btn-primary{
@@ -186,13 +196,6 @@
 
 .contact-section a{
   color: #00316A;
-}
-
-.nav-img{
-  width: 240px;
-  padding: 20px 0;
-  position: relative;
-  top: 10px;
 }
 
 .navbar .search{
