@@ -112,6 +112,11 @@
     z-index: 99;
   }
 
+  .nav-img {
+    margin-bottom: 10px;
+    left: 10px;
+  }
+
 }
 
 .page-header .btn-primary{
