@@ -629,3 +629,10 @@
   margin-left: auto;
 }
 /*End Society Page*/
+.drop-cap{
+  float: left;
+  font-size: 45px;
+  line-height: 1;
+  font-weight: bold;
+  margin-right: 9px;
+}
