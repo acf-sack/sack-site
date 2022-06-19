@@ -186,6 +186,8 @@
 .nav-img{
   width: 240px;
   padding: 20px 0;
+  position: relative;
+  top: 10px;
 }
 
 .navbar .search{
