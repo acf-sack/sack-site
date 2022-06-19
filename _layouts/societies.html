@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css"
         href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <!-- Material Kit CSS -->
     <link href="{{ site.baseurl }}/assets/css/material-kit.css?v=2.0.7" rel="stylesheet" />
     <!-- CSS custom styles -->
@@ -44,7 +45,9 @@
                                     class="img-raised rounded-circle img-fluid">
                                 <div class="name">
                                     <h3 class="title mb-0 mt-2">{{ page.sname }}</h3>
-                                    <h5 class="text-lowercase text-muted mt-0"> {{ page.email }} </h5>
+                                    <a href="mailto:{{ page.email }}">
+                                        <h5 class="text-lowercase mt-0"> {{ page.email }} </h5>
+                                    </a>
                                 </div>
                             </div>
                         </div>
