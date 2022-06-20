@@ -47,7 +47,7 @@
   border: none;
   border-radius: 3px;
   text-transform: uppercase;
-  background-color: #fafafa;
+  background-color: #fcfcfc;
 }
 
 .dropdown {
@@ -73,9 +73,10 @@
   text-decoration: none;
   display: block;
   border-radius: 0.25rem;
-  padding: 5px 10px;
+  padding: 6px 10px;
   font-size: 13px;  
   height: 35px;
+  background-color: rgb(245, 245, 245);
 }
 
 .dropdown-content a:hover {
