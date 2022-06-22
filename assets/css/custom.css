@@ -424,11 +424,11 @@
   width: 150px !important;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 991px) {
   .searchSmall{display: none !important;}
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
   .searchLarge{display: none;}
   .gsc-control-cse{
     margin-left: 200px !important;
