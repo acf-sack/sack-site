@@ -70,12 +70,13 @@
 
   .search-icon {
     display: block;
-    margin-right: 5.0rem;
+    margin-right: 4.0rem;
   }
 
   .phone-icon {
     display: block;
-    margin-right: 5.0rem;
+    margin-right: 4.2rem;
+    margin-left: 2.0rem;
   }
 
   .phone-icon a{
