@@ -54,6 +54,7 @@
   position: relative;
   display: inline-block;
   width: 100%;
+  border-radius: 3px;
 }
 
 .dropdown-content {
@@ -90,7 +91,7 @@
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #e4e4e4;
+  background-color: #dedede;
 }
 
 .contact-us .google-map {
@@ -165,6 +166,9 @@
     z-index: 99;
   }
 
+  .dropdown-content {
+    width: 100%;
+  }
 }
 
 .page-header .btn-primary{
