@@ -32,7 +32,7 @@
   width: 100%;
 }
 
-.nav-btn-hover:hover {
+.nav-btn-hover:hover, .nav-btn-hover.active:hover {
   background-color: #dedede;
 }
 
@@ -70,12 +70,13 @@
 
   .search-icon {
     display: block;
-    margin-right: 5.0rem;
+    margin-right: 4.0rem;
   }
 
   .phone-icon {
     display: block;
-    margin-right: 5.0rem;
+    margin-right: 4.2rem;
+    margin-left: 2.0rem;
   }
 
   .phone-icon a{
@@ -423,11 +424,11 @@
   width: 150px !important;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 991px) {
   .searchSmall{display: none !important;}
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
   .searchLarge{display: none;}
   .gsc-control-cse{
     margin-left: 200px !important;
@@ -629,3 +630,11 @@
   margin-left: auto;
 }
 /*End Society Page*/
+
+.drop-cap{
+  float: left;
+  font-size: 45px;
+  line-height: 1;
+  font-weight: bold;
+  margin-right: 9px;
+}
