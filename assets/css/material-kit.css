@@ -3779,6 +3779,7 @@ tbody.collapse.show {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  white-space: nowrap;
 }
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
