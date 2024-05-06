@@ -179,7 +179,7 @@ img {
     top: 50%;
     width: auto;
     margin-top: -30px;
-    padding: 8px;
+    padding: 5px;
     color: black;
     font-weight: bold;
     font-size: 30px;
@@ -192,6 +192,16 @@ img {
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
+}
+
+.prev:hover {
+    color: gray;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.427);
+}
+
+.next:hover {
+    color: gray;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.427);
 }
 
 /* Navigation Lines */
