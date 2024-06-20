@@ -40,6 +40,60 @@
   color: #00316A;
 }
 
+.dropbtn {
+  color: #495057;
+  padding: 13px;
+  font-size: 12px;
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  background-color: #fcfcfc;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.dropdown-content {
+  background-color: rgb(253, 253, 253);
+  display: none;
+  position: absolute;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  min-width: 9.5rem;
+  padding: 6px;
+  border-radius: 3px; 
+}
+
+.dropdown-content a {
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  border-radius: 0.25rem;
+  padding: 6px 10px;
+  font-size: 13px;  
+  height: 35px;
+  background-color: rgb(245, 245, 245);
+}
+
+.dropdown-content a:hover {
+  background-color: #00c8e2;
+  color: white;
+  box-shadow: 0px 1px 8px 0px #00bcd4;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #dedede;
+}
+
 .contact-us .google-map {
   position: relative;
   bottom: 8px;
@@ -113,6 +167,9 @@
     z-index: 99;
   }
 
+  .dropdown-content {
+    width: 100%;
+  }
 }
 
 .page-header .btn-primary{
